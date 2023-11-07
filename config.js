@@ -26,7 +26,7 @@ import moment from 'moment-timezone'
 /*==============USER-INFO==============*/
 global.owner = [
   ['8801853262586', 'ꜱʟᴀꜱʜᴇʀ ᴏꜰꜰɪᴄɪᴀʟ', true], 
-  ['put your number', 'your-name', true] 
+  ['8801853262586', 'Ericson', true] 
 ] 
 
 global.mods = ['put-your-number','8801853262586'] //Don't replace this,If you want to add someone add any dev
@@ -49,8 +49,8 @@ global.org = 'org-hE49SehUQEPAGJAy20yr4Om9'   // Get you Org-Key from 'https://p
 
 /*============= TAIMU =============*/
 let wibh = moment.tz('Asia/Dhaka').format('HH')
-    let wibm = moment.tz('Asia/Dhaka').format('mm')
-    let wibs = moment.tz('Asia/Dhaka').format('ss')
+    let wibm = moment.tz('Africa/Nairobi').format('mm')
+    let wibs = moment.tz('Africa/Nairobi').format('ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
     let d = new Date(new Date + 3600000)
